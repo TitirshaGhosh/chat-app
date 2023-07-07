@@ -15,7 +15,7 @@ import Input from '../Input/Input';
 let socket;
 const Chat=()=>{
     
-    const ENDPOINT = 'localhost:5000';
+    const ENDPOINT = 'https://chat-app-0wrj.onrender.com/';
     const [name, setName] = useState('');
     const [room, setRoom] = useState('');
     const [users, setUsers] = useState('');
